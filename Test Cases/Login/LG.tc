@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Trường hợp đăng nhập thành công, sai tài khoản, sai mật khẩu</description>
+   <name>LG</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9de1665-ec50-46ed-9f0c-2d16b8791407</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a8fa1d2-1cc9-4514-bc4e-d2d880f1a6d3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ea2f086-5bc9-491d-acd1-a73e1b6e6363</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6eb63d44-6fd8-4849-905b-eb3e434bc980</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4a8fa1d2-1cc9-4514-bc4e-d2d880f1a6d3</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ea2f086-5bc9-491d-acd1-a73e1b6e6363</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6eb63d44-6fd8-4849-905b-eb3e434bc980</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+</TestCaseEntity>

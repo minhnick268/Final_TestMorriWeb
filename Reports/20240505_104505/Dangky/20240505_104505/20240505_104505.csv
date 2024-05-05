@@ -1,0 +1,190 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Dangky,Edge Chromium 124,,,05-05-2024 10:45:09,05-05-2024 10:53:42,8m - 33.748s,FAILED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC1,Edge Chromium 124,nhập thiếu email,,05-05-2024 10:45:09,05-05-2024 10:45:53,44.680s,FAILED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:45:09,05-05-2024 10:45:19,10.007s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:45:19,05-05-2024 10:45:20,0.226s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:45:20,05-05-2024 10:45:20,0.983s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:45:20,05-05-2024 10:45:21,0.223s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), """")",Edge Chromium 124,,,05-05-2024 10:45:21,05-05-2024 10:45:21,0.142s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""0935626852"")",Edge Chromium 124,,,05-05-2024 10:45:21,05-05-2024 10:45:21,0.177s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:45:21,05-05-2024 10:45:21,0.170s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:45:21,05-05-2024 10:45:21,0.175s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:45:21,05-05-2024 10:45:21,0.028s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""))",Edge Chromium 124,,,05-05-2024 10:45:21,05-05-2024 10:45:22,0.735s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:45:22,05-05-2024 10:45:53,31.334s,FAILED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC10,Edge Chromium 124,nhập email thiếu @,,05-05-2024 10:45:53,05-05-2024 10:46:36,42.372s,FAILED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:45:54,05-05-2024 10:46:02,8.660s,PASSED
+maximizeWindow(),Edge Chromium 124,,,05-05-2024 10:46:02,05-05-2024 10:46:02,0.153s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:46:02,05-05-2024 10:46:03,0.254s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:46:03,05-05-2024 10:46:04,0.877s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:46:04,05-05-2024 10:46:04,0.147s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritestgmail.com"")",Edge Chromium 124,,,05-05-2024 10:46:04,05-05-2024 10:46:04,0.140s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""0935626852"")",Edge Chromium 124,,,05-05-2024 10:46:04,05-05-2024 10:46:04,0.133s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:46:04,05-05-2024 10:46:04,0.122s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:46:04,05-05-2024 10:46:04,0.155s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:46:04,05-05-2024 10:46:04,0.010s,PASSED
+"waitForElementClickable(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""), 0)",Edge Chromium 124,,,05-05-2024 10:46:04,05-05-2024 10:46:04,0.207s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:46:04,05-05-2024 10:46:36,31.421s,FAILED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC11,Edge Chromium 124,nhập email thiếu đuôi sau @,,05-05-2024 10:46:36,05-05-2024 10:47:19,43.041s,FAILED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:46:36,05-05-2024 10:46:45,9.432s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:46:45,05-05-2024 10:46:46,0.105s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:46:46,05-05-2024 10:46:46,0.861s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:46:46,05-05-2024 10:46:47,0.197s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritest@"")",Edge Chromium 124,,,05-05-2024 10:46:47,05-05-2024 10:46:47,0.169s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""0935626852"")",Edge Chromium 124,,,05-05-2024 10:46:47,05-05-2024 10:46:47,0.193s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:46:47,05-05-2024 10:46:47,0.204s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:46:47,05-05-2024 10:46:47,0.231s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:46:47,05-05-2024 10:46:47,0.015s,PASSED
+"waitForElementClickable(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""), 0)",Edge Chromium 124,,,05-05-2024 10:46:47,05-05-2024 10:46:47,0.089s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:46:47,05-05-2024 10:47:19,31.438s,FAILED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC12,Edge Chromium 124,nhập email có @@,,05-05-2024 10:47:19,05-05-2024 10:48:01,41.901s,FAILED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:47:19,05-05-2024 10:47:28,8.594s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:47:28,05-05-2024 10:47:28,0.108s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:47:28,05-05-2024 10:47:29,0.857s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:47:29,05-05-2024 10:47:29,0.145s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritest@@gmail.com"")",Edge Chromium 124,,,05-05-2024 10:47:29,05-05-2024 10:47:29,0.139s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""0935626852"")",Edge Chromium 124,,,05-05-2024 10:47:29,05-05-2024 10:47:29,0.125s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:47:29,05-05-2024 10:47:29,0.137s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:47:29,05-05-2024 10:47:29,0.151s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:47:29,05-05-2024 10:47:29,0.010s,PASSED
+"click(findTestObject(""Dangky/Page_ng k ti khon/button_ng k""))",Edge Chromium 124,,,05-05-2024 10:47:29,05-05-2024 10:47:29,0.113s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:47:29,05-05-2024 10:48:01,31.412s,FAILED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC13,Edge Chromium 124,nhập đúng và đủ thông tin,,05-05-2024 10:48:01,05-05-2024 10:48:15,14.152s,PASSED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:48:01,05-05-2024 10:48:12,10.681s,PASSED
+maximizeWindow(),Edge Chromium 124,,,05-05-2024 10:48:12,05-05-2024 10:48:12,0.131s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:48:12,05-05-2024 10:48:12,0.183s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:48:12,05-05-2024 10:48:13,0.835s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:48:13,05-05-2024 10:48:13,0.153s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritest@gmail.com"")",Edge Chromium 124,,,05-05-2024 10:48:13,05-05-2024 10:48:13,0.131s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""0935626852"")",Edge Chromium 124,,,05-05-2024 10:48:13,05-05-2024 10:48:13,0.124s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:48:13,05-05-2024 10:48:13,0.129s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:48:13,05-05-2024 10:48:13,0.139s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:48:13,05-05-2024 10:48:13,0.012s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""), STOP_ON_FAILURE)",Edge Chromium 124,,,05-05-2024 10:48:13,05-05-2024 10:48:15,1.024s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:48:15,05-05-2024 10:48:15,0.069s,PASSED
+closeBrowser(),Edge Chromium 124,,,05-05-2024 10:48:15,05-05-2024 10:48:15,0.387s,PASSED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC14,Edge Chromium 124,email chứa ký tự đặc biệt,,05-05-2024 10:48:15,05-05-2024 10:48:26,11.402s,PASSED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:48:15,05-05-2024 10:48:23,7.944s,PASSED
+maximizeWindow(),Edge Chromium 124,,,05-05-2024 10:48:23,05-05-2024 10:48:23,0.135s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:48:23,05-05-2024 10:48:23,0.211s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:48:23,05-05-2024 10:48:24,0.884s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:48:24,05-05-2024 10:48:24,0.158s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritest&%*#@gmail.com"")",Edge Chromium 124,,,05-05-2024 10:48:24,05-05-2024 10:48:25,0.151s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""0935626852"")",Edge Chromium 124,,,05-05-2024 10:48:25,05-05-2024 10:48:25,0.113s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:48:25,05-05-2024 10:48:25,0.115s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:48:25,05-05-2024 10:48:25,0.132s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:48:25,05-05-2024 10:48:25,0.015s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""))",Edge Chromium 124,,,05-05-2024 10:48:25,05-05-2024 10:48:26,0.997s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:48:26,05-05-2024 10:48:26,0.069s,PASSED
+closeBrowser(),Edge Chromium 124,,,05-05-2024 10:48:26,05-05-2024 10:48:26,0.368s,PASSED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC2,Edge Chromium 124,thiếu username,,05-05-2024 10:48:26,05-05-2024 10:49:10,43.322s,FAILED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:48:26,05-05-2024 10:48:36,9.643s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:48:36,05-05-2024 10:48:36,0.113s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:48:36,05-05-2024 10:48:37,0.856s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), """")",Edge Chromium 124,,,05-05-2024 10:48:37,05-05-2024 10:48:37,0.131s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritest@gmail.com"")",Edge Chromium 124,,,05-05-2024 10:48:37,05-05-2024 10:48:37,0.141s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""0935626852"")",Edge Chromium 124,,,05-05-2024 10:48:37,05-05-2024 10:48:37,0.129s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:48:37,05-05-2024 10:48:38,0.111s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:48:38,05-05-2024 10:48:38,0.126s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:48:38,05-05-2024 10:48:38,0.009s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""))",Edge Chromium 124,,,05-05-2024 10:48:38,05-05-2024 10:48:38,0.717s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:48:38,05-05-2024 10:49:10,31.277s,FAILED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC3,Edge Chromium 124,thiếu sđt,,05-05-2024 10:49:10,05-05-2024 10:49:53,43.311s,FAILED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:49:10,05-05-2024 10:49:19,8.922s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:49:19,05-05-2024 10:49:19,0.127s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:49:19,05-05-2024 10:49:20,0.831s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:49:20,05-05-2024 10:49:20,0.223s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritest@gmail.com"")",Edge Chromium 124,,,05-05-2024 10:49:20,05-05-2024 10:49:20,0.158s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), """")",Edge Chromium 124,,,05-05-2024 10:49:20,05-05-2024 10:49:20,0.143s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:49:20,05-05-2024 10:49:20,0.145s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:49:20,05-05-2024 10:49:21,0.211s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:49:21,05-05-2024 10:49:21,0.013s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""))",Edge Chromium 124,,,05-05-2024 10:49:21,05-05-2024 10:49:22,1.066s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:49:22,05-05-2024 10:49:53,31.377s,FAILED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC4,Edge Chromium 124,nhập sđt <11 chữ số,,05-05-2024 10:49:53,05-05-2024 10:50:06,13.127s,PASSED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:49:53,05-05-2024 10:49:58,4.582s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:49:58,05-05-2024 10:50:03,4.916s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:50:03,05-05-2024 10:50:04,0.954s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:50:04,05-05-2024 10:50:04,0.218s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritest@gmail.com"")",Edge Chromium 124,,,05-05-2024 10:50:04,05-05-2024 10:50:04,0.198s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""09356"")",Edge Chromium 124,,,05-05-2024 10:50:04,05-05-2024 10:50:04,0.153s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:50:04,05-05-2024 10:50:04,0.183s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:50:04,05-05-2024 10:50:05,0.187s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:50:05,05-05-2024 10:50:05,0.014s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""))",Edge Chromium 124,,,05-05-2024 10:50:05,05-05-2024 10:50:06,1.154s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:50:06,05-05-2024 10:50:06,0.091s,PASSED
+closeBrowser(),Edge Chromium 124,,,05-05-2024 10:50:06,05-05-2024 10:50:06,0.381s,PASSED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC5,Edge Chromium 124,thiếu pass,,05-05-2024 10:50:06,05-05-2024 10:50:49,42.900s,FAILED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:50:06,05-05-2024 10:50:15,8.934s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:50:15,05-05-2024 10:50:15,0.154s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:50:15,05-05-2024 10:50:16,1.003s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:50:16,05-05-2024 10:50:17,0.205s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritest@gmail.com"")",Edge Chromium 124,,,05-05-2024 10:50:17,05-05-2024 10:50:17,0.185s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""0935626852"")",Edge Chromium 124,,,05-05-2024 10:50:17,05-05-2024 10:50:17,0.153s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), """")",Edge Chromium 124,,,05-05-2024 10:50:17,05-05-2024 10:50:17,0.207s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:50:17,05-05-2024 10:50:17,0.209s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:50:17,05-05-2024 10:50:17,0.013s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""))",Edge Chromium 124,,,05-05-2024 10:50:17,05-05-2024 10:50:17,0.138s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:50:17,05-05-2024 10:50:49,31.596s,FAILED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC6,Edge Chromium 124,thiếu confirm pass,,05-05-2024 10:50:49,05-05-2024 10:51:33,43.450s,FAILED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:50:49,05-05-2024 10:50:59,9.537s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:50:59,05-05-2024 10:50:59,0.104s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:50:59,05-05-2024 10:51:00,0.850s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:51:00,05-05-2024 10:51:00,0.148s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritest@gmail.com"")",Edge Chromium 124,,,05-05-2024 10:51:00,05-05-2024 10:51:00,0.146s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""0935626852"")",Edge Chromium 124,,,05-05-2024 10:51:00,05-05-2024 10:51:00,0.112s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:51:00,05-05-2024 10:51:00,0.132s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), """")",Edge Chromium 124,,,05-05-2024 10:51:00,05-05-2024 10:51:00,0.150s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:51:00,05-05-2024 10:51:00,0.014s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""))",Edge Chromium 124,,,05-05-2024 10:51:00,05-05-2024 10:51:01,0.788s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:51:01,05-05-2024 10:51:33,31.352s,FAILED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC7,Edge Chromium 124,thiếu pass và confirm pass,,05-05-2024 10:51:33,05-05-2024 10:52:16,43.596s,FAILED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:51:33,05-05-2024 10:51:42,9.740s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:51:42,05-05-2024 10:51:42,0.115s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:51:42,05-05-2024 10:51:43,0.875s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:51:43,05-05-2024 10:51:43,0.142s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritest@gmail.com"")",Edge Chromium 124,,,05-05-2024 10:51:43,05-05-2024 10:51:44,0.141s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""0935626852"")",Edge Chromium 124,,,05-05-2024 10:51:44,05-05-2024 10:51:44,0.119s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), """")",Edge Chromium 124,,,05-05-2024 10:51:44,05-05-2024 10:51:44,0.124s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), """")",Edge Chromium 124,,,05-05-2024 10:51:44,05-05-2024 10:51:44,0.126s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:51:44,05-05-2024 10:51:44,0.013s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""))",Edge Chromium 124,,,05-05-2024 10:51:44,05-05-2024 10:51:45,0.703s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:51:45,05-05-2024 10:52:16,31.395s,FAILED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC8,Edge Chromium 124,nhập pass và confirm pass <5 ký tự,,05-05-2024 10:52:16,05-05-2024 10:52:59,43.328s,FAILED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:52:16,05-05-2024 10:52:26,9.407s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:52:26,05-05-2024 10:52:26,0.127s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:52:26,05-05-2024 10:52:27,0.854s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:52:27,05-05-2024 10:52:27,0.159s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritest@gmail.com"")",Edge Chromium 124,,,05-05-2024 10:52:27,05-05-2024 10:52:27,0.151s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""0935626852"")",Edge Chromium 124,,,05-05-2024 10:52:27,05-05-2024 10:52:27,0.134s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), ""1234"")",Edge Chromium 124,,,05-05-2024 10:52:27,05-05-2024 10:52:27,0.130s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), ""1234"")",Edge Chromium 124,,,05-05-2024 10:52:27,05-05-2024 10:52:27,0.199s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:52:27,05-05-2024 10:52:27,0.008s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""))",Edge Chromium 124,,,05-05-2024 10:52:27,05-05-2024 10:52:28,0.710s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:52:28,05-05-2024 10:52:59,31.379s,FAILED
+,,,,,,,
+Test Cases/Dangky/Dang Ky_TC9,Edge Chromium 124,nhập sai confirm pass,,05-05-2024 10:52:59,05-05-2024 10:53:42,42.902s,FAILED
+"openBrowser(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 10:53:00,05-05-2024 10:53:09,8.989s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/i_Lin h nhanh_pe-7s-users""))",Edge Chromium 124,,,05-05-2024 10:53:09,05-05-2024 10:53:09,0.106s,PASSED
+"clickOffset(findTestObject(""Dangky/Page_Trang ch/a_ng k ti khon""), 0, 0)",Edge Chromium 124,,,05-05-2024 10:53:09,05-05-2024 10:53:10,0.902s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_H v Tn_FullName""), ""Morri"")",Edge Chromium 124,,,05-05-2024 10:53:10,05-05-2024 10:53:10,0.146s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_a ch Email_Email""), ""morritest@gmail.com"")",Edge Chromium 124,,,05-05-2024 10:53:10,05-05-2024 10:53:10,0.137s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_S in thoi_Phone""), ""0935626852"")",Edge Chromium 124,,,05-05-2024 10:53:10,05-05-2024 10:53:10,0.123s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Mt khu_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 10:53:10,05-05-2024 10:53:10,0.122s,PASSED
+"setText(findTestObject(""Dangky/Page_ng k ti khon/input_Nhp li mt khu_ConfirmPassword""), ""12345"")",Edge Chromium 124,,,05-05-2024 10:53:10,05-05-2024 10:53:10,0.133s,PASSED
+"scrollToPosition(0, 750)",Edge Chromium 124,,,05-05-2024 10:53:10,05-05-2024 10:53:10,0.012s,PASSED
+"click(findTestObject(""Dangky/Page_Trang ch/Page_ng k ti khon/button_ng k""))",Edge Chromium 124,,,05-05-2024 10:53:10,05-05-2024 10:53:11,0.720s,PASSED
+"verifyElementText(findTestObject(""Dangky/Page_Dashboard/a_Thng tin ti khon""), ""THÔNG TIN TÀI KHOẢN"")",Edge Chromium 124,,,05-05-2024 10:53:11,05-05-2024 10:53:42,31.371s,FAILED

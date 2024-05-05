@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Edge Chromium 124,,,05-05-2024 11:03:20,05-05-2024 11:04:31,1m - 10.926s,FAILED
+,,,,,,,
+Test Cases/Login/LG,Edge Chromium 124,"Trường hợp đăng nhập thành công, sai tài khoản, sai mật khẩu",,05-05-2024 11:03:20,05-05-2024 11:03:35,14.608s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,05-05-2024 11:03:21,05-05-2024 11:03:25,4.680s,PASSED
+"navigateToUrl(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 11:03:25,05-05-2024 11:03:32,6.419s,PASSED
+maximizeWindow(),Edge Chromium 124,,,05-05-2024 11:03:32,05-05-2024 11:03:32,0.144s,PASSED
+"click(findTestObject(""Login/Page_Trangchu/icon_dangnhap""))",Edge Chromium 124,,,05-05-2024 11:03:32,05-05-2024 11:03:32,0.466s,PASSED
+"click(findTestObject(""Login/Page_Trangchu/dangnhap""))",Edge Chromium 124,,,05-05-2024 11:03:32,05-05-2024 11:03:33,0.814s,PASSED
+"setText(findTestObject(""Login/Page_dangnhap/input_Email""), email)",Edge Chromium 124,,,05-05-2024 11:03:33,05-05-2024 11:03:33,0.247s,PASSED
+"setText(findTestObject(""Login/Page_dangnhap/input_Password""), password)",Edge Chromium 124,,,05-05-2024 11:03:33,05-05-2024 11:03:34,0.152s,PASSED
+"click(findTestObject(""Login/Page_dangnhap/button_dangnhap""))",Edge Chromium 124,,,05-05-2024 11:03:34,05-05-2024 11:03:35,0.935s,PASSED
+"verifyElementText(findTestObject(""Login/Page_Dashboard/div_thongbaodangnhap""), message)",Edge Chromium 124,,,05-05-2024 11:03:35,05-05-2024 11:03:35,0.098s,PASSED
+closeBrowser(),Edge Chromium 124,,,05-05-2024 11:03:35,05-05-2024 11:03:35,0.331s,PASSED
+,,,,,,,
+Test Cases/Login/LG,Edge Chromium 124,"Trường hợp đăng nhập thành công, sai tài khoản, sai mật khẩu",,05-05-2024 11:03:35,05-05-2024 11:03:46,10.583s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,05-05-2024 11:03:35,05-05-2024 11:03:38,2.447s,PASSED
+"navigateToUrl(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 11:03:38,05-05-2024 11:03:43,5.612s,PASSED
+maximizeWindow(),Edge Chromium 124,,,05-05-2024 11:03:43,05-05-2024 11:03:43,0.115s,PASSED
+"click(findTestObject(""Login/Page_Trangchu/icon_dangnhap""))",Edge Chromium 124,,,05-05-2024 11:03:43,05-05-2024 11:03:43,0.199s,PASSED
+"click(findTestObject(""Login/Page_Trangchu/dangnhap""))",Edge Chromium 124,,,05-05-2024 11:03:43,05-05-2024 11:03:44,0.765s,PASSED
+"setText(findTestObject(""Login/Page_dangnhap/input_Email""), email)",Edge Chromium 124,,,05-05-2024 11:03:44,05-05-2024 11:03:44,0.184s,PASSED
+"setText(findTestObject(""Login/Page_dangnhap/input_Password""), password)",Edge Chromium 124,,,05-05-2024 11:03:44,05-05-2024 11:03:45,0.138s,PASSED
+"click(findTestObject(""Login/Page_dangnhap/button_dangnhap""))",Edge Chromium 124,,,05-05-2024 11:03:45,05-05-2024 11:03:45,0.704s,PASSED
+"verifyElementText(findTestObject(""Login/Page_Dashboard/div_thongbaodangnhap""), message)",Edge Chromium 124,,,05-05-2024 11:03:45,05-05-2024 11:03:45,0.072s,PASSED
+closeBrowser(),Edge Chromium 124,,,05-05-2024 11:03:45,05-05-2024 11:03:46,0.316s,PASSED
+,,,,,,,
+Test Cases/Login/LG,Edge Chromium 124,"Trường hợp đăng nhập thành công, sai tài khoản, sai mật khẩu",,05-05-2024 11:03:46,05-05-2024 11:03:58,12.671s,FAILED
+"openBrowser("""")",Edge Chromium 124,,,05-05-2024 11:03:46,05-05-2024 11:03:48,2.461s,PASSED
+"navigateToUrl(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 11:03:48,05-05-2024 11:03:56,7.401s,PASSED
+maximizeWindow(),Edge Chromium 124,,,05-05-2024 11:03:56,05-05-2024 11:03:56,0.112s,PASSED
+"click(findTestObject(""Login/Page_Trangchu/icon_dangnhap""))",Edge Chromium 124,,,05-05-2024 11:03:56,05-05-2024 11:03:56,0.157s,PASSED
+"click(findTestObject(""Login/Page_Trangchu/dangnhap""))",Edge Chromium 124,,,05-05-2024 11:03:56,05-05-2024 11:03:57,0.785s,PASSED
+"setText(findTestObject(""Login/Page_dangnhap/input_Email""), email)",Edge Chromium 124,,,05-05-2024 11:03:57,05-05-2024 11:03:57,0.180s,PASSED
+"setText(findTestObject(""Login/Page_dangnhap/input_Password""), password)",Edge Chromium 124,,,05-05-2024 11:03:57,05-05-2024 11:03:57,0.155s,PASSED
+"click(findTestObject(""Login/Page_dangnhap/button_dangnhap""))",Edge Chromium 124,,,05-05-2024 11:03:57,05-05-2024 11:03:58,0.974s,PASSED
+"verifyElementText(findTestObject(""Login/Page_Dashboard/div_thongbaodangnhap""), message)",Edge Chromium 124,,,05-05-2024 11:03:58,05-05-2024 11:03:58,0.425s,FAILED
+,,,,,,,
+Test Cases/Login/Login_blank,Edge Chromium 124,Trường hợp đăng nhập với khoảng cách sau @,,05-05-2024 11:03:58,05-05-2024 11:04:09,10.873s,FAILED
+"openBrowser("""")",Edge Chromium 124,,,05-05-2024 11:03:58,05-05-2024 11:04:02,3.121s,PASSED
+"navigateToUrl(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 11:04:02,05-05-2024 11:04:07,5.768s,PASSED
+maximizeWindow(),Edge Chromium 124,,,05-05-2024 11:04:07,05-05-2024 11:04:07,0.100s,PASSED
+"click(findTestObject(""Login/Page_Trangchu/icon_dangnhap""))",Edge Chromium 124,,,05-05-2024 11:04:07,05-05-2024 11:04:08,0.151s,PASSED
+"click(findTestObject(""Login/Page_Trangchu/dangnhap""))",Edge Chromium 124,,,05-05-2024 11:04:08,05-05-2024 11:04:08,0.742s,PASSED
+"setText(findTestObject(""Login/Page_dangnhap/input_Email""), ""trankhaiminh@ gmail.com"")",Edge Chromium 124,,,05-05-2024 11:04:08,05-05-2024 11:04:08,0.173s,PASSED
+"setText(findTestObject(""Login/Page_dangnhap/input_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 11:04:08,05-05-2024 11:04:09,0.136s,PASSED
+"click(findTestObject(""Login/Page_dangnhap/button_dangnhap""))",Edge Chromium 124,,,05-05-2024 11:04:09,05-05-2024 11:04:09,0.078s,PASSED
+"verifyElementText(findTestObject(""Login/Page_Dashboard/div_thongbaodangnhap""), ""Đăng nhập thành công"")",Edge Chromium 124,,,05-05-2024 11:04:09,05-05-2024 11:04:09,0.525s,FAILED
+,,,,,,,
+Test Cases/Login/Login_emptyEmail,Edge Chromium 124,Trường hợp đăng nhập với email được bỏ trống,,05-05-2024 11:04:09,05-05-2024 11:04:20,10.914s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,05-05-2024 11:04:09,05-05-2024 11:04:12,2.680s,PASSED
+"navigateToUrl(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 11:04:12,05-05-2024 11:04:18,5.792s,PASSED
+maximizeWindow(),Edge Chromium 124,,,05-05-2024 11:04:18,05-05-2024 11:04:18,0.101s,PASSED
+"click(findTestObject(""Login/Page_Trangchu/icon_dangnhap""))",Edge Chromium 124,,,05-05-2024 11:04:18,05-05-2024 11:04:18,0.153s,PASSED
+"click(findTestObject(""Login/Page_Trangchu/dangnhap""))",Edge Chromium 124,,,05-05-2024 11:04:18,05-05-2024 11:04:19,0.769s,PASSED
+"setText(findTestObject(""Login/Page_dangnhap/input_Email""), """")",Edge Chromium 124,,,05-05-2024 11:04:19,05-05-2024 11:04:19,0.147s,PASSED
+"setText(findTestObject(""Login/Page_dangnhap/input_Password""), ""123456"")",Edge Chromium 124,,,05-05-2024 11:04:19,05-05-2024 11:04:19,0.145s,PASSED
+"click(findTestObject(""Login/Page_dangnhap/button_dangnhap""))",Edge Chromium 124,,,05-05-2024 11:04:19,05-05-2024 11:04:20,0.665s,PASSED
+"verifyElementText(findTestObject(""Login/Page_ng nhp ti khon/span_Email""), ""Vui lòng nhập Email"")",Edge Chromium 124,,,05-05-2024 11:04:20,05-05-2024 11:04:20,0.067s,PASSED
+closeBrowser(),Edge Chromium 124,,,05-05-2024 11:04:20,05-05-2024 11:04:20,0.310s,PASSED
+,,,,,,,
+Test Cases/Login/Login_emptyPassword,Edge Chromium 124,Trường hợp đăng nhập với mật khẩu được bỏ trống,,05-05-2024 11:04:20,05-05-2024 11:04:31,10.872s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,05-05-2024 11:04:20,05-05-2024 11:04:23,2.386s,PASSED
+"navigateToUrl(""http://www.morricosmetics.somee.com/"")",Edge Chromium 124,,,05-05-2024 11:04:23,05-05-2024 11:04:24,1.321s,PASSED
+maximizeWindow(),Edge Chromium 124,,,05-05-2024 11:04:24,05-05-2024 11:04:29,4.790s,PASSED
+"click(findTestObject(""Login/Page_Trangchu/icon_dangnhap""))",Edge Chromium 124,,,05-05-2024 11:04:29,05-05-2024 11:04:29,0.140s,PASSED
+"click(findTestObject(""Login/Page_Trangchu/dangnhap""))",Edge Chromium 124,,,05-05-2024 11:04:29,05-05-2024 11:04:30,0.819s,PASSED
+"setText(findTestObject(""Login/Page_dangnhap/input_Email""), ""trankhaiminh@gmail.com"")",Edge Chromium 124,,,05-05-2024 11:04:30,05-05-2024 11:04:30,0.175s,PASSED
+"setText(findTestObject(""Login/Page_dangnhap/input_Password""), """")",Edge Chromium 124,,,05-05-2024 11:04:30,05-05-2024 11:04:30,0.113s,PASSED
+"click(findTestObject(""Login/Page_dangnhap/button_dangnhap""))",Edge Chromium 124,,,05-05-2024 11:04:30,05-05-2024 11:04:31,0.691s,PASSED
+"verifyElementText(findTestObject(""Login/Page_ng nhp ti khon/span_Password""), ""Vui lòng nhập mật khẩu"")",Edge Chromium 124,,,05-05-2024 11:04:31,05-05-2024 11:04:31,0.062s,PASSED
+closeBrowser(),Edge Chromium 124,,,05-05-2024 11:04:31,05-05-2024 11:04:31,0.302s,PASSED

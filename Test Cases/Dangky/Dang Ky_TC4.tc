@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>nhập sđt &lt;11 chữ số</description>
+   <name>Dang Ky_TC4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb2af66f-fe8b-4c4f-aeca-c697f16a5ae7</testCaseGuid>
+</TestCaseEntity>

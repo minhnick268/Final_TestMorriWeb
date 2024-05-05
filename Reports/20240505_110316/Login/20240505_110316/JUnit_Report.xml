@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="70.926" tests="6" failures="2" errors="0">
+   <testsuite name="Login" tests="6" failures="2" errors="0" time="70.926" skipped="0" timestamp="05-05-2024T11:03:20" hostname="84336 - LAPTOP-A3TS5UF1" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\84336\\git\\Final_TestMorriWeb\\Reports\\20240505_110316\\Login\\20240505_110316"/>
+         <property name="logFiles" value="C:\\Users\\84336\\git\\Final_TestMorriWeb\\Reports\\20240505_110316\\Login\\20240505_110316\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\84336\\git\\Final_TestMorriWeb\\Reports\\20240505_110316\\Login\\20240505_110316\\1714881838501.png, C:\\Users\\84336\\git\\Final_TestMorriWeb\\Reports\\20240505_110316\\Login\\20240505_110316\\1714881838703.png, C:\\Users\\84336\\git\\Final_TestMorriWeb\\Reports\\20240505_110316\\Login\\20240505_110316\\1714881849270.png, C:\\Users\\84336\\git\\Final_TestMorriWeb\\Reports\\20240505_110316\\Login\\20240505_110316\\1714881849533.png"/>
+         <property name="hostName" value="84336 - LAPTOP-A3TS5UF1"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="e69a42957cad3ae937f723cf21362975"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/LG" time="14.608" classname="Test Cases/Login/LG" status="PASSED">
+         <system-out><![CDATA[05-05-2024T11:03:20 - [TEST_CASE][PASSED] - Test Cases/Login/LG: Test Cases/Login/LG
+
+05-05-2024T11:03:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2024T11:03:21 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+05-05-2024T11:03:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2024T11:03:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2024T11:03:25 - [TEST_STEP][PASSED] - navigateToUrl("http://www.morricosmetics.somee.com/"): Navigate to 'http://www.morricosmetics.somee.com/' successfully
+
+05-05-2024T11:03:32 - [MESSAGE][PASSED] - Navigate to 'http://www.morricosmetics.somee.com/' successfully
+
+05-05-2024T11:03:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-05-2024T11:03:32 - [MESSAGE][PASSED] - Current window maximized
+
+05-05-2024T11:03:32 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Trangchu/icon_dangnhap")): Object: 'Object Repository/Login/Page_Trangchu/icon_dangnhap' is clicked on
+
+05-05-2024T11:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Trangchu/icon_dangnhap' is clicked on
+
+05-05-2024T11:03:32 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Trangchu/dangnhap")): Object: 'Object Repository/Login/Page_Trangchu/dangnhap' is clicked on
+
+05-05-2024T11:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Trangchu/dangnhap' is clicked on
+
+05-05-2024T11:03:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_dangnhap/input_Email"), email): Text 'trankhaiminh@gmail.com' is set on object 'Object Repository/Login/Page_dangnhap/input_Email'
+
+05-05-2024T11:03:33 - [MESSAGE][PASSED] - Text 'trankhaiminh@gmail.com' is set on object 'Object Repository/Login/Page_dangnhap/input_Email'
+
+05-05-2024T11:03:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_dangnhap/input_Password"), password): Text '123456' is set on object 'Object Repository/Login/Page_dangnhap/input_Password'
+
+05-05-2024T11:03:34 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login/Page_dangnhap/input_Password'
+
+05-05-2024T11:03:34 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_dangnhap/button_dangnhap")): Object: 'Object Repository/Login/Page_dangnhap/button_dangnhap' is clicked on
+
+05-05-2024T11:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_dangnhap/button_dangnhap' is clicked on
+
+05-05-2024T11:03:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Page_Dashboard/div_thongbaodangnhap"), message): Actual text and expected text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are matched.
+
+05-05-2024T11:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are matched.
+
+05-05-2024T11:03:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-05-2024T11:03:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/LG" time="10.583" classname="Test Cases/Login/LG" status="PASSED">
+         <system-out><![CDATA[05-05-2024T11:03:35 - [TEST_CASE][PASSED] - Test Cases/Login/LG: Test Cases/Login/LG
+
+05-05-2024T11:03:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2024T11:03:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+05-05-2024T11:03:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2024T11:03:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2024T11:03:38 - [TEST_STEP][PASSED] - navigateToUrl("http://www.morricosmetics.somee.com/"): Navigate to 'http://www.morricosmetics.somee.com/' successfully
+
+05-05-2024T11:03:43 - [MESSAGE][PASSED] - Navigate to 'http://www.morricosmetics.somee.com/' successfully
+
+05-05-2024T11:03:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-05-2024T11:03:43 - [MESSAGE][PASSED] - Current window maximized
+
+05-05-2024T11:03:43 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Trangchu/icon_dangnhap")): Object: 'Object Repository/Login/Page_Trangchu/icon_dangnhap' is clicked on
+
+05-05-2024T11:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Trangchu/icon_dangnhap' is clicked on
+
+05-05-2024T11:03:43 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Trangchu/dangnhap")): Object: 'Object Repository/Login/Page_Trangchu/dangnhap' is clicked on
+
+05-05-2024T11:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Trangchu/dangnhap' is clicked on
+
+05-05-2024T11:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_dangnhap/input_Email"), email): Text 'trankhaiminh@gmail.com' is set on object 'Object Repository/Login/Page_dangnhap/input_Email'
+
+05-05-2024T11:03:44 - [MESSAGE][PASSED] - Text 'trankhaiminh@gmail.com' is set on object 'Object Repository/Login/Page_dangnhap/input_Email'
+
+05-05-2024T11:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_dangnhap/input_Password"), password): Text '123456789' is set on object 'Object Repository/Login/Page_dangnhap/input_Password'
+
+05-05-2024T11:03:45 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Login/Page_dangnhap/input_Password'
+
+05-05-2024T11:03:45 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_dangnhap/button_dangnhap")): Object: 'Object Repository/Login/Page_dangnhap/button_dangnhap' is clicked on
+
+05-05-2024T11:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_dangnhap/button_dangnhap' is clicked on
+
+05-05-2024T11:03:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Page_Dashboard/div_thongbaodangnhap"), message): Actual text and expected text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are matched.
+
+05-05-2024T11:03:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are matched.
+
+05-05-2024T11:03:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-05-2024T11:03:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/LG" time="12.671" classname="Test Cases/Login/LG" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login/LG FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at LG.run(LG:36)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Thông tin đăng nhập chưa chính xác' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[05-05-2024T11:03:46 - [TEST_CASE][FAILED] - Test Cases/Login/LG: Test Cases/Login/LG FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at LG.run(LG:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Thông tin đăng nhập chưa chính xác' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+05-05-2024T11:03:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2024T11:03:46 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+05-05-2024T11:03:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2024T11:03:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2024T11:03:48 - [TEST_STEP][PASSED] - navigateToUrl("http://www.morricosmetics.somee.com/"): Navigate to 'http://www.morricosmetics.somee.com/' successfully
+
+05-05-2024T11:03:56 - [MESSAGE][PASSED] - Navigate to 'http://www.morricosmetics.somee.com/' successfully
+
+05-05-2024T11:03:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-05-2024T11:03:56 - [MESSAGE][PASSED] - Current window maximized
+
+05-05-2024T11:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Trangchu/icon_dangnhap")): Object: 'Object Repository/Login/Page_Trangchu/icon_dangnhap' is clicked on
+
+05-05-2024T11:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Trangchu/icon_dangnhap' is clicked on
+
+05-05-2024T11:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Trangchu/dangnhap")): Object: 'Object Repository/Login/Page_Trangchu/dangnhap' is clicked on
+
+05-05-2024T11:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Trangchu/dangnhap' is clicked on
+
+05-05-2024T11:03:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_dangnhap/input_Email"), email): Text 'trankhaimin@gmail.com' is set on object 'Object Repository/Login/Page_dangnhap/input_Email'
+
+05-05-2024T11:03:57 - [MESSAGE][PASSED] - Text 'trankhaimin@gmail.com' is set on object 'Object Repository/Login/Page_dangnhap/input_Email'
+
+05-05-2024T11:03:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_dangnhap/input_Password"), password): Text '123456' is set on object 'Object Repository/Login/Page_dangnhap/input_Password'
+
+05-05-2024T11:03:57 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login/Page_dangnhap/input_Password'
+
+05-05-2024T11:03:57 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_dangnhap/button_dangnhap")): Object: 'Object Repository/Login/Page_dangnhap/button_dangnhap' is clicked on
+
+05-05-2024T11:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_dangnhap/button_dangnhap' is clicked on
+
+05-05-2024T11:03:58 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Login/Page_Dashboard/div_thongbaodangnhap"), message): Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at LG.run(LG:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Thông tin đăng nhập chưa chính xác' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+05-05-2024T11:03:58 - [MESSAGE][FAILED] - Actual text '' and expected text 'Thông tin đăng nhập chưa chính xác' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Thông tin đăng nhập chưa chính xác' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at LG.run(LG:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\84336\\git\\Final_TestMorriWeb\\Reports\\20240505_110316\\Login\\20240505_110316\\1714881838501.png]]
+
+05-05-2024T11:03:58 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at LG.run(LG:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Thông tin đăng nhập chưa chính xác' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\84336\\git\\Final_TestMorriWeb\\Reports\\20240505_110316\\Login\\20240505_110316\\1714881838703.png]]]]></system-out>
+         <system-err><![CDATA[05-05-2024T11:03:46 - [TEST_CASE][FAILED] - Test Cases/Login/LG: Test Cases/Login/LG FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at LG.run(LG:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Thông tin đăng nhập chưa chính xác' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login_blank" time="10.873" classname="Test Cases/Login/Login_blank" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login/Login_blank FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at Login_blank.run(Login_blank:36)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Đăng nhập thành công' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[05-05-2024T11:03:58 - [TEST_CASE][FAILED] - Test Cases/Login/Login_blank: Test Cases/Login/Login_blank FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Login_blank.run(Login_blank:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Đăng nhập thành công' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+05-05-2024T11:03:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2024T11:03:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-05-2024T11:03:59 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+05-05-2024T11:04:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2024T11:04:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2024T11:04:02 - [TEST_STEP][PASSED] - navigateToUrl("http://www.morricosmetics.somee.com/"): Navigate to 'http://www.morricosmetics.somee.com/' successfully
+
+05-05-2024T11:04:07 - [MESSAGE][PASSED] - Navigate to 'http://www.morricosmetics.somee.com/' successfully
+
+05-05-2024T11:04:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-05-2024T11:04:07 - [MESSAGE][PASSED] - Current window maximized
+
+05-05-2024T11:04:07 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Trangchu/icon_dangnhap")): Object: 'Object Repository/Login/Page_Trangchu/icon_dangnhap' is clicked on
+
+05-05-2024T11:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Trangchu/icon_dangnhap' is clicked on
+
+05-05-2024T11:04:08 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Trangchu/dangnhap")): Object: 'Object Repository/Login/Page_Trangchu/dangnhap' is clicked on
+
+05-05-2024T11:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Trangchu/dangnhap' is clicked on
+
+05-05-2024T11:04:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_dangnhap/input_Email"), "trankhaiminh@ gmail.com"): Text 'trankhaiminh@ gmail.com' is set on object 'Object Repository/Login/Page_dangnhap/input_Email'
+
+05-05-2024T11:04:08 - [MESSAGE][PASSED] - Text 'trankhaiminh@ gmail.com' is set on object 'Object Repository/Login/Page_dangnhap/input_Email'
+
+05-05-2024T11:04:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_dangnhap/input_Password"), "123456"): Text '123456' is set on object 'Object Repository/Login/Page_dangnhap/input_Password'
+
+05-05-2024T11:04:09 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login/Page_dangnhap/input_Password'
+
+05-05-2024T11:04:09 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_dangnhap/button_dangnhap")): Object: 'Object Repository/Login/Page_dangnhap/button_dangnhap' is clicked on
+
+05-05-2024T11:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_dangnhap/button_dangnhap' is clicked on
+
+05-05-2024T11:04:09 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Login/Page_Dashboard/div_thongbaodangnhap"), "Đăng nhập thành công"): Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Login_blank.run(Login_blank:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Đăng nhập thành công' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+05-05-2024T11:04:09 - [MESSAGE][FAILED] - Actual text '' and expected text 'Đăng nhập thành công' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Đăng nhập thành công' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Login_blank.run(Login_blank:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\84336\\git\\Final_TestMorriWeb\\Reports\\20240505_110316\\Login\\20240505_110316\\1714881849270.png]]
+
+05-05-2024T11:04:09 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Login_blank.run(Login_blank:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Đăng nhập thành công' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\84336\\git\\Final_TestMorriWeb\\Reports\\20240505_110316\\Login\\20240505_110316\\1714881849533.png]]]]></system-out>
+         <system-err><![CDATA[05-05-2024T11:03:58 - [TEST_CASE][FAILED] - Test Cases/Login/Login_blank: Test Cases/Login/Login_blank FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at Login_blank.run(Login_blank:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Đăng nhập thành công' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login_emptyEmail" time="10.914" classname="Test Cases/Login/Login_emptyEmail" status="PASSED">
+         <system-out><![CDATA[05-05-2024T11:04:09 - [TEST_CASE][PASSED] - Test Cases/Login/Login_emptyEmail: Test Cases/Login/Login_emptyEmail
+
+05-05-2024T11:04:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2024T11:04:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-05-2024T11:04:10 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+05-05-2024T11:04:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2024T11:04:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2024T11:04:12 - [TEST_STEP][PASSED] - navigateToUrl("http://www.morricosmetics.somee.com/"): Navigate to 'http://www.morricosmetics.somee.com/' successfully
+
+05-05-2024T11:04:18 - [MESSAGE][PASSED] - Navigate to 'http://www.morricosmetics.somee.com/' successfully
+
+05-05-2024T11:04:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-05-2024T11:04:18 - [MESSAGE][PASSED] - Current window maximized
+
+05-05-2024T11:04:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Trangchu/icon_dangnhap")): Object: 'Object Repository/Login/Page_Trangchu/icon_dangnhap' is clicked on
+
+05-05-2024T11:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Trangchu/icon_dangnhap' is clicked on
+
+05-05-2024T11:04:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Trangchu/dangnhap")): Object: 'Object Repository/Login/Page_Trangchu/dangnhap' is clicked on
+
+05-05-2024T11:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Trangchu/dangnhap' is clicked on
+
+05-05-2024T11:04:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_dangnhap/input_Email"), ""): Text '' is set on object 'Object Repository/Login/Page_dangnhap/input_Email'
+
+05-05-2024T11:04:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/Page_dangnhap/input_Email'
+
+05-05-2024T11:04:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_dangnhap/input_Password"), "123456"): Text '123456' is set on object 'Object Repository/Login/Page_dangnhap/input_Password'
+
+05-05-2024T11:04:19 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login/Page_dangnhap/input_Password'
+
+05-05-2024T11:04:19 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_dangnhap/button_dangnhap")): Object: 'Object Repository/Login/Page_dangnhap/button_dangnhap' is clicked on
+
+05-05-2024T11:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_dangnhap/button_dangnhap' is clicked on
+
+05-05-2024T11:04:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Page_ng nhp ti khon/span_Email"), "Vui lòng nhập Email"): Actual text and expected text of test object 'Object Repository/Login/Page_ng nhp ti khon/span_Email' are matched.
+
+05-05-2024T11:04:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_ng nhp ti khon/span_Email' are matched.
+
+05-05-2024T11:04:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-05-2024T11:04:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login_emptyPassword" time="10.872" classname="Test Cases/Login/Login_emptyPassword" status="PASSED">
+         <system-out><![CDATA[05-05-2024T11:04:20 - [TEST_CASE][PASSED] - Test Cases/Login/Login_emptyPassword: Test Cases/Login/Login_emptyPassword
+
+05-05-2024T11:04:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2024T11:04:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+05-05-2024T11:04:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2024T11:04:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2024T11:04:23 - [TEST_STEP][PASSED] - navigateToUrl("http://www.morricosmetics.somee.com/"): Navigate to 'http://www.morricosmetics.somee.com/' successfully
+
+05-05-2024T11:04:24 - [MESSAGE][PASSED] - Navigate to 'http://www.morricosmetics.somee.com/' successfully
+
+05-05-2024T11:04:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-05-2024T11:04:29 - [MESSAGE][PASSED] - Current window maximized
+
+05-05-2024T11:04:29 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Trangchu/icon_dangnhap")): Object: 'Object Repository/Login/Page_Trangchu/icon_dangnhap' is clicked on
+
+05-05-2024T11:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Trangchu/icon_dangnhap' is clicked on
+
+05-05-2024T11:04:29 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Trangchu/dangnhap")): Object: 'Object Repository/Login/Page_Trangchu/dangnhap' is clicked on
+
+05-05-2024T11:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Trangchu/dangnhap' is clicked on
+
+05-05-2024T11:04:30 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_dangnhap/input_Email"), "trankhaiminh@gmail.com"): Text 'trankhaiminh@gmail.com' is set on object 'Object Repository/Login/Page_dangnhap/input_Email'
+
+05-05-2024T11:04:30 - [MESSAGE][PASSED] - Text 'trankhaiminh@gmail.com' is set on object 'Object Repository/Login/Page_dangnhap/input_Email'
+
+05-05-2024T11:04:30 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_dangnhap/input_Password"), ""): Text '' is set on object 'Object Repository/Login/Page_dangnhap/input_Password'
+
+05-05-2024T11:04:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/Page_dangnhap/input_Password'
+
+05-05-2024T11:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_dangnhap/button_dangnhap")): Object: 'Object Repository/Login/Page_dangnhap/button_dangnhap' is clicked on
+
+05-05-2024T11:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_dangnhap/button_dangnhap' is clicked on
+
+05-05-2024T11:04:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Page_ng nhp ti khon/span_Password"), "Vui lòng nhập mật khẩu"): Actual text and expected text of test object 'Object Repository/Login/Page_ng nhp ti khon/span_Password' are matched.
+
+05-05-2024T11:04:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_ng nhp ti khon/span_Password' are matched.
+
+05-05-2024T11:04:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-05-2024T11:04:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-05-2024T11:03:20 - [TEST_SUITE][FAILED] - Login: Test Cases/Login/LG FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at LG.run(LG:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Thông tin đăng nhập chưa chính xác' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[05-05-2024T11:03:20 - [TEST_SUITE][FAILED] - Login: Test Cases/Login/LG FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at LG.run(LG:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1714881796341.run(TempTestSuite1714881796341.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Thông tin đăng nhập chưa chính xác' of test object 'Object Repository/Login/Page_Dashboard/div_thongbaodangnhap' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

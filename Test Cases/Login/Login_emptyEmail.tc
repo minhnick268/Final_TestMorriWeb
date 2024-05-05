@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Trường hợp đăng nhập với email được bỏ trống</description>
+   <name>Login_emptyEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be3d09b9-e126-49a0-81aa-8f2b30b9b457</testCaseGuid>
+</TestCaseEntity>

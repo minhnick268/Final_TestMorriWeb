@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>nhập pass và confirm pass &lt;5 ký tự</description>
+   <name>Dang Ky_TC8</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e6d7806-fc54-4bfd-a242-d1fcf0ffba06</testCaseGuid>
+</TestCaseEntity>

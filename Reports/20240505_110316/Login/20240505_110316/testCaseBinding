@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/Login/LG","testCaseId":"Test Cases/Login/LG","iterationVariableName":"","bindedValues":{"password":"\u0027123456\u0027","message":"\u0027\\u0110\\u0103ng nh\\u1EADp th\\u00E0nh c\\u00F4ng\u0027","email":"\u0027trankhaiminh@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/Login/LG","testCaseId":"Test Cases/Login/LG","iterationVariableName":"","bindedValues":{"password":"\u0027123456789\u0027","message":"\u0027Th\\u00F4ng tin \\u0111\\u0103ng nh\\u1EADp ch\\u01B0a ch\\u00EDnh x\\u00E1c\u0027","email":"\u0027trankhaiminh@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/Login/LG","testCaseId":"Test Cases/Login/LG","iterationVariableName":"","bindedValues":{"password":"\u0027123456\u0027","message":"\u0027Th\\u00F4ng tin \\u0111\\u0103ng nh\\u1EADp ch\\u01B0a ch\\u00EDnh x\\u00E1c\u0027","email":"\u0027trankhaimin@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/Login/Login_blank","testCaseId":"Test Cases/Login/Login_blank","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login_emptyEmail","testCaseId":"Test Cases/Login/Login_emptyEmail","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login_emptyPassword","testCaseId":"Test Cases/Login/Login_emptyPassword","iterationVariableName":""}

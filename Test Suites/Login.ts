@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>879fe925-ad37-4090-b819-03f70949124a</testSuiteGuid>
+   <testCaseLink>
+      <guid>b8614b16-6e74-456f-a161-0c068ae22bc7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/LG</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e2908691-5818-41cd-9eff-d69ac47572b4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e2908691-5818-41cd-9eff-d69ac47572b4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>4a8fa1d2-1cc9-4514-bc4e-d2d880f1a6d3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2908691-5818-41cd-9eff-d69ac47572b4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>2ea2f086-5bc9-491d-acd1-a73e1b6e6363</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2908691-5818-41cd-9eff-d69ac47572b4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>message</value>
+         <variableId>6eb63d44-6fd8-4849-905b-eb3e434bc980</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f66ed8bf-6423-438c-9ea9-12207bc1ea87</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login_blank</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fa1bee80-7742-42f7-85c2-827cf4803d14</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login_emptyEmail</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4448da5d-0031-4c33-84c9-57a5abcb28e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login_emptyPassword</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

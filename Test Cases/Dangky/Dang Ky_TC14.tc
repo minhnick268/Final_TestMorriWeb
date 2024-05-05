@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>email chứa ký tự đặc biệt</description>
+   <name>Dang Ky_TC14</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae6c0646-30c8-40eb-ab1c-f328051cb163</testCaseGuid>
+</TestCaseEntity>
