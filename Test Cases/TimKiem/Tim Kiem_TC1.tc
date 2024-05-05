@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Nhập chuỗi kí tự sai</description>
+   <name>Tim Kiem_TC1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bfcd2067-25f0-41b3-a0ee-0983fc081ad2</testCaseGuid>
+</TestCaseEntity>
